@@ -5,4 +5,12 @@ let pessoa = {
     altura: 1.81
 }
 
-console.log(`Meu nome é ${pessoa.nome} tenho ${pessoa.idade} anos tenho ${pessoa.peso}kg e tenho ${pessoa.altura} de altura`)
+const {nome, idade, peso, altura} = pessoa 
+
+console.log(`Meu nome é ${nome} tenho ${idade} anos tenho ${peso}kg e tenho ${altura} de altura`)
+
+
+/* console.log(nome)
+console.log(idade)
+console.log(peso)
+console.log(altura) */
